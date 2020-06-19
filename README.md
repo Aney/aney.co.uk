@@ -25,6 +25,12 @@ the website semantic, accessable, and snappy
 - Liquid Layout
 - Speed testing and improvements
 
+## Additional Work
+
+A fancy CV/about me boilerplater.
+
+This could however be made into a seperate project for other's use
+
 ### Will take a while
 
 Like all things I work on, this will likely take a hot minute to complete.
