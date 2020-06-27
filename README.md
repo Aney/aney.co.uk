@@ -24,12 +24,17 @@ the website semantic, accessable, and snappy
 - Validation of HTML
 - Liquid Layout
 - Speed testing and improvements
+- Server side programming (?)
 
 ## Additional Work
 
 A fancy CV/about me boilerplater.
 
 This could however be made into a seperate project for other's use
+
+A blog and RSS system
+
+Again, this may be made into a seperate modular project and added onto the site
 
 ### Will take a while
 

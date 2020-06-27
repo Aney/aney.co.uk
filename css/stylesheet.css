@@ -1,9 +1,14 @@
+html{
+	overflow-y: scroll; /* Invalid? But it works */
+}
+
 html,body{
 	background: #282828;
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	margin-top: 1em;
 	font-family: courier monospace;
+	padding: 0 0.5em;
 }
 
 /* Navigation */
@@ -11,12 +16,14 @@ nav{
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 2em;
-	width: 75%;
+	width: 80%;
 }
 
 nav ul{
 	display: inline-block;
+	margin-left: 0;
 	margin-right: 0.5em;
+	list-style-type: none;
 }
 
 nav ul li p{
@@ -29,9 +36,18 @@ nav ul li{
 	display: inline-block;		
 }
 
+/* Footer */
+footer{
+	margin: 0 auto;
+	text-align: center;
+}
+
 /* Text */
-h1, h2, h3, h4, h5{ color: #98971a; font-weight: bold; margin: 0.25em 0 0.25em 0;}
-p{ color: #ededed; }
+h1, h2, h3, h4, h5{
+	color: #98971a;
+	font-weight: bold; margin: 0.25em 0 0.25em 0;}
+
+p{ color: #a89984;}
 
 h1{
 	font-size: 2em;
@@ -41,6 +57,10 @@ h1{
 
 h2{
 	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.2em;
 }
 
 p{
@@ -57,9 +77,25 @@ a:hover{
 	color: #b16286;
 }
 
+.anchor, .anchor:hover{
+	color: #98971a;
+	cursor: default;
+}
+
+/* Lists */
+ul{
+	margin-left: 1em;
+	list-style-type: circle; /* square */
+	color: #d79921;
+}
 /* Positions */
 section{
 	margin-bottom: 3em;
+}
+
+.item{
+	margin-left: 1em;
+	margin-bottom: 1em;
 }
 /* cc241d red
 d79921 yellow
