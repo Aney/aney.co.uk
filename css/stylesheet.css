@@ -47,7 +47,14 @@ h1, h2, h3, h4, h5{
 	color: #98971a;
 	font-weight: bold; margin: 0.25em 0 0.25em 0;}
 
-p{ color: #a89984;}
+p{
+	color: #a89984;
+	margin: 0.5em 0;
+}
+
+ul p{
+	margin: 0.1em 0;
+}
 
 h1{
 	font-size: 2em;
@@ -90,7 +97,7 @@ ul{
 }
 /* Positions */
 section{
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 .item{
