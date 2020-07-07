@@ -13,18 +13,13 @@ the website semantic, accessable, and snappy
 ## To Do
 
 - Core CSS
-- HTML pages for:
-	- About me
-	- Experience
-	- Software I use
-	- Projects
-	- Books and recommendations
-	- Etc.
-- Make the text readable
+- HTML
 - Validation of HTML
 - Liquid Layout
 - Speed testing and improvements
-- Server side programming (?)
+- Scripts for blog, page building, etc
+- Scripts for CSS
+- Make more appealing
 
 ## Additional Work
 
