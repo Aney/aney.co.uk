@@ -31,17 +31,17 @@ ul p{
 }
 
 h1{
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 	margin-bottom: 1em;
 }
 
 h2{
-	font-size: 1.4em;
+	font-size: 1em;
 }
 
 h3{
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 p{
@@ -88,6 +88,11 @@ section, article{
 footer{
 	margin: 0 auto;
 	text-align: center;
+}
+
+footer p{
+	margin: 0;
+	line-height: 1em;
 }
 
 /* Header */
