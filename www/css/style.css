@@ -53,6 +53,7 @@ html{
 
 html,body{
 	background: #282828;
+/*	background: #ECEFF4; /* Nord */
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -65,12 +66,14 @@ html,body{
 /* Text */
 h1, h2, h3, h4, h5{
 	color: #98971a;
+/*	color: #3B4252; /* Nord  */
 	font-weight: bold;
 	margin: 0.25em 0;
 }
 
 p{
 	color: #a89984;
+/*	color: #3B4252; /* Nord  */
 	margin: 0.5em 0;
 }
 
@@ -136,6 +139,7 @@ section, article{
 footer{
 	margin: 0 auto;
 	text-align: center;
+	margin-bottom: 0.5em;
 }
 
 footer p{
@@ -192,6 +196,10 @@ nav a:hover{
 	color: #d78821;
 }
 
+.content{
+	padding-bottom: 2em;
+}
+
 .content-list section{
 	width: 49.5%;
 	display: inline-block;
@@ -203,3 +211,16 @@ d79921 yellow
 689d6a aqua 
 458588 blue*
 purple b16286 */
+@media screen and (max-device-width: 480px){
+	.main{
+
+	}
+
+	h1,h2,h3,h4,h5,p{
+		text-align: center;	
+	}
+
+	.content-list section{
+		width: 100%;
+	}
+}
