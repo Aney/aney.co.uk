@@ -1,0 +1,13 @@
+@media screen and (max-device-width: 480px){
+	.main{
+
+	}
+
+	h1,h2,h3,h4,h5,p{
+		text-align: center;	
+	}
+
+	.content-list section{
+		width: 100%;
+	}
+}
