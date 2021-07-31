@@ -3,134 +3,87 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Aney's computing equipment, and hardware">
+		<meta name="description" content="A collection of the hardware, and other tools used by Aney, to work, and create">
+		<meta name="keywords" content="Equipment, Technology, Hardware, Computing">
+		<meta name="author" content="Nathan (Aney) Steel">
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<title>Aney's Network</title>
+		<link rel="icon" type="image/png" href="images/favicon.svg">
+		<title>Hardware</title>
 	</head>
 
 	<body>
 		<header>
-			<h1>Aney's Network</h1>
+			<h1>Aney's Hardware</h1>
+			<hr/>
 			<nav>
-				<p><a href="index.html">home</a></p>
-				<p><a href="blog.html">blog</a></p>
-				<p><a href="equipment.html">equipment</a></p>
-				<p><a href="onebag.html">onebag</a></p>
-				<p><a href="#">video</a></p>
-				<p><a href="#">git</a></p>
-				<p><a href="support.html">support</a></p>
-				<p><a href="files/cv.pdf">cv</a></p>
-				<hr/>
+				<a href="index.html">home</a>
+				<a href="equipment.html">equipment</a>
+				<a href="projects.html">projects</a>
+				<a href="files/cv.pdf">cv</a>
 			</nav>
+			<hr/>
 		</header>
 
 		<main>
 			<section>
-				<h1>My tech, and gear</h1>
-				<p>This is the hardware I use to make and manage my home and life.</p>
-				<p>This page is going to be reworked, for now it's content is there to prevent broken links</p>
+				<h2>My tech, and gear</h2>
+				<p>This is the hardware I use to make, and manage my home, work, and life.</p>
 			</section>
 
 			<section id="equipment">
 				<section id="computers">
-					<h1>Computers</h1>
-					<section id="laptop" class="item">
-						<h1>Laptop</h1>
-						<p>Thinkpad x220</p>
-						<section class="specs">
-							<ul>
-								<li><p>i5 2540m</p></li>
-								<li><p>6GB RAM</p></li>
-								<li><p>500GB mSata SSD</p></li>
-								<li><p>500GB SSD</p></li>
-							</ul>
-						</section>
+					<h2>Computers</h2>
+					<section id="laptop">
+						<p><strong>Laptop:</strong> Thinkpad x220
+						<br/>i5 2540m, iGPU, 6GB RAM, 500GB mSata SSD, 500GB SSD</p>
 					</section>
-					<section id="computer" class="item">
-						<h1>Computer</h1>
-						<p>Custom Build</p>
-						<section class="specs">
-							<ul>
-								<li><p>R5 2600X</p></li>
-								<li><p>16GB RAM</p></li>
-								<li><p>500GB m.2. SSD</p></li>
-								<li><p>Vega 64</p></li>
-							</ul>
-						</section>
+					<section id="gaming-pc">
+						<p><strong>Gaming PC</strong>
+						<br/>R5 2600X, 16GB RAM, 500GB m.2. SSD, Vega 64</p>
 					</section>
 				</section>
 
 				<section id="peripherals">
-					<h1>Peripherals</h1>
-					<section class="item">
-						<h1>Keyboard</h1>
-						<p>Razer Blackwidow Lite</p>
-					</section>
-					<section class="item">
-						<h1>Mouse</h1>
-						<p>Logitech MX Master</p>
-					</section>
-					<section class="item">
-						<h1>Microphone</h1>
-						<p>Blue Yeti</p>
-					</section>
-					<section class="item">
-						<h1>Monitors</h1>
-						<p>Something 1920x1080</p>
-						<p>BenQ 1600x900</p>
-					</section>
+					<h2>Peripherals</h2>
+					<p><strong>Keyboard:</strong> Razer Blackwidow Lite</p>
+					<p><strong>Mouse:</strong> Logitech MX Master</p>
+					<p><strong>Microphone:</strong> Blue Yeti</p>
+					<p><strong>Speakers:</strong> Logitech Z200</p>
+					<p><strong>Monitor:</strong> Samsung 2443BW</p>
 				</section>
 
 				<section id="servers">
-					<h1>Servers</h1>
-					<section class="item">
-						<h1>Thinkcentre</h1>
-						<p>Proxmox Host</p>
-						<section class="specs">
-							<ul>
-								<li><p>i5 4570</p></li>
-								<li><p>16GB RAM</p></li>
-								<li><p>1TB HDD</p></li>
-								<li><p>2 Port Network Card</p></li>
-								<li><p>GT 710</p></li>
-							</ul>
-						</section>
-					</section>
-					<section class="item">
-						<h1>lilnas</h1>
-						<p>OMV NAS</p>
-						<section class="specs">
-							<ul>
-								<li><p>i3 4160</p></li>
-								<li><p>8GB RAM</p></li>
-								<li><p>32GB USB</p></li>
-								<li><p>500GB HDD</p></li>
-								<li><p>4TB HDD</p></li>
-							</ul>
-						</section>
-					</section>
-					<section class="item">
-						<h1>moxbox</h1>
-						<p>Proxmox Host</p>
-						<section class="specs">
-							<ul>
-								<li><p>i7 7500</p></li>
-								<li><p>8GB RAM</p></li>
-								<li><p>500GB HDD</p></li>
-							</ul>
-						</section>
+					<h2>Servers</h2>
+					<section id="rpi3">
+						<p><strong>rpi3.local:</strong> Raspberry Pi 3B
+						<br/>Currently the only server I'm keeping up. It's hosting this site!</p>
 					</section>
 				</section>
-				<section id="mobile" class="item">
-					<h1>Mobile</h1>
-					<p>Huawei P8 Lite 2017</p>
+
+				<section id="misc">
+					<h2>Misc.</h2>
+					<p id="mobile"><strong>Mobile:</strong> Google Pixel 4a</p>
+					<p id="powerbank"><strong>Power Bank:</strong> 10,000mAh PowerAdd Pilot 2GS</p>
+					<p id="backup-usb"><strong>Backup USB:</strong> 64GB Sandisk</p>
+					<p><strong>Wireless Earphones:</strong> Besdio something</p>
 				</section>
 			</section>
 		</main>
 
 		<footer>
 			<hr/>
-			<p>Designed and written with <a href="https://danluu.com/web-bloat/">web bloat</a> in mind</p>
-			<p>Made with <a href="#">aSite</a> | <a href="https://github.com/Aney/website">Source Code</a></p>
+			<nav>
+				<a href="/git">Git</a>
+				<a href="/wiki">Wiki</a>
+				<a href="https://www.youtube.com/aneyOC" target="_blank" rel="noopener noreferrer">Video</a>
+				<a href="#">Support</a>
+			</nav>
+			<hr/>
+			<p>Written by <a href="http://www.aney.co.uk" target="_blank" rel="noopener noreferrer">@aney</a> with <a href="https://danluu.com/web-bloat/" target="_blank" rel="noopener noreferrer">web bloat</a> in mind | <a href="https://github.com/Aney/website" target="_blank" rel="noopener noreferrer">Source Code</a></p>
 		</footer>
 	</body>
 </html>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 68.791665 68.791669"
+   height="260"
+   width="260">
+  <defs
+     id="defs2">
+    <pattern
+       patternTransform="matrix(3.7795276,0,0,3.7795276,0,-862.51963)"
+       id="pattern1734"
+       xlink:href="#Wavywhite" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30.066020"
+       height="5.1805778"
+       id="Wavywhite">
+      <path
+         style="fill:white;stroke:none;"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         id="path2169" />
+    </pattern>
+    <pattern
+       xlink:href="#Wavywhite-9"
+       id="pattern1717"
+       patternTransform="translate(78.995991,-18.202814)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30.066020"
+       height="5.1805778"
+       id="Wavywhite-9">
+      <path
+         style="fill:white;stroke:none;"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         id="path2169-3" />
+    </pattern>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:none"
+     id="layer2">
+    <rect
+       y="-10.587383"
+       x="-16.036171"
+       height="86.862602"
+       width="105.57146"
+       id="rect816"
+       style="opacity:1;fill:#000000;stroke-width:0.26458332" />
+  </g>
+  <g
+     transform="translate(0,-228.20832)"
+     id="layer1">
+    <path
+       id="path12"
+       transform="matrix(0.26458333,0,0,0.26458333,0,228.20832)"
+       d="M 129.86523 -0.22265625 A 130 130 0 0 0 -0.13476562 129.77734 A 130 130 0 0 0 129.86523 259.77734 A 130 130 0 0 0 259.86523 129.77734 A 130 130 0 0 0 129.86523 -0.22265625 z M 70.716797 27.228516 A 29.294424 89.903573 0 0 1 98.974609 93.482422 A 79.999997 79.999997 0 0 1 130.74805 86.798828 A 79.999997 79.999997 0 0 1 162.48828 93.396484 A 29.294424 89.903573 0 0 1 190.73828 27.228516 A 29.294424 89.903573 0 0 1 220.0332 117.13086 A 29.294424 89.903573 0 0 1 209.76172 185.46484 A 83.842658 46.46702 0 0 1 215.9082 202.85742 A 83.842658 46.46702 0 0 1 132.06445 249.32422 A 83.842658 46.46702 0 0 1 48.222656 202.85742 A 83.842658 46.46702 0 0 1 52.732422 187.96289 A 29.294424 89.903573 0 0 1 41.423828 117.13086 A 29.294424 89.903573 0 0 1 70.716797 27.228516 z "
+       style="opacity:1;fill:url(#pattern1734);fill-opacity:1;stroke-width:0.99999994" />
+    <circle
+       r="34.395832"
+       cy="244.34233"
+       cx="113.35635"
+       id="path12-6"
+       style="opacity:1;fill:url(#pattern1717);fill-opacity:1;stroke-width:0.26458332" />
+  </g>
+  <g
+     id="layer3">
+    <circle
+       r="21.166666"
+       cy="-36.030361"
+       cx="-56.876034"
+       id="path842"
+       style="opacity:1;fill:#000000;stroke-width:0.26029724" />
+    <ellipse
+       ry="23.786987"
+       rx="7.7508163"
+       cy="-49.171467"
+       cx="-72.758934"
+       id="path844"
+       style="opacity:1;fill:#000000;stroke-width:0.34952027" />
+    <ellipse
+       transform="scale(-1,1)"
+       ry="23.786987"
+       rx="7.7508163"
+       cy="-49.171467"
+       cx="41.003338"
+       id="path844-9"
+       style="opacity:1;fill:#000000;stroke-width:0.34952027" />
+    <ellipse
+       ry="12.294399"
+       rx="22.183371"
+       cy="-26.48992"
+       cx="-56.527508"
+       id="path951"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.40126047;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

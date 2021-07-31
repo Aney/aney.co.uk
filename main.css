@@ -1,42 +1,29 @@
-@media (prefers-color-scheme: dark){
-	body {color:#fff;background:#000;}
-	a:link {color:#9cf;}
-	a:hover, a:visited:hover {color:#cef;}
-	a:visited {color:#9ce;}
+html{
+	font-size: 16px;
 }
-@media print{
-	body{
-		max-width:none
-	}
-}
-
 body{
-	margin:0.2em auto;
-	max-width:40em;
-	padding:0 .62em;
-	font:1.2em/1.62 sans-serif;
+	margin:0.2rem auto;
+	max-width:48rem;
+	padding:0 .62rem;
+	font:1.2rem/1.62 sans-serif;
 }
 h1,h2,h3 {
-	line-height:1.2;
-}
-header{
-	line-height: 1.2em;
+	line-height: 1.2;
 }
 header h1{
-	margin-bottom: 0;
+	margin: 0.4rem 0;
+	margin-top: 1.4rem;
 }
 
 a{
 	text-decoration: none;
 }
-
-nav p{
-	display: inline-block;
+nav{
+	list-style-type: none;
 	padding: 0;
-	margin: 0.4em 0;
-	margin-right: 0.6em;
 }
-nav a{
+nav>a{
+    padding: 0.2rem;
 }
 nav hr{
 	margin: 0;
@@ -45,20 +32,7 @@ nav hr{
 html, body {
 	height: 100%;
 }
-body {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	background-image: url(images/logo.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 10em;
-}
-main{
-	flex: 1 0 auto;
-}
+
 ul{
 	padding-left: 0;
 	list-style-position: inside;
@@ -67,22 +41,76 @@ ul{
 }
 ul p{
 	display: inline-block;
-	margin: 0.5em 0;
-}
-footer {
-	flex-shrink: 0;
+	margin: 0.5rem 0;
 }
 footer p{
 	margin: 0;
 }
 
-.item{
-	display: inline-block;
-	width: 47%;
-	/*
-	background: red;
-	border: 1px solid black;
-	*/
-	vertical-align: top;
-	margin: 1%;
+/* 
+ * Flex is only there to put the footer at the bottom.
+ * Not actually needed. BLOAT!!
+*/
+body {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
 }
+main{
+	flex: 1 0 auto;
+}
+
+@media (prefers-color-scheme: dark){
+	body {color:#fff;background:#000;}
+	a:link {color:#9cf;}
+	a:hover, a:visited:hover {color:#cef;}
+	a:visited {color:#9ce;}
+}
+
+@media print{
+	body{
+		max-width:none
+	}
+}
+
+/* For Media over the mobile view */
+@media screen and (min-width: 601px){
+	nav{
+		list-style-type: none;
+	}
+	nav>a{
+		padding: 1rem 0;
+		margin-left: 2rem;
+	}
+	nav>a:first-child{
+		padding: 1rem 0;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+/* For Media under the mobile view */
+@media screen and (max-width: 600px){
+	h1, h2, h3, p, nav{
+		text-align: center;
+	}
+
+	body{
+		margin: 0.2rem;
+	}
+	nav>a{
+		display: block;
+		border-top: 1px dotted black;
+	}
+	nav>a:first-child{
+		border: none;
+	}
+}
+
+@media screen and (max-width: 600px) and (prefers-color-scheme: dark){
+	nav>a{
+		border-color: white;
+	}
+}
+
