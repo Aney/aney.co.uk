@@ -8,7 +8,7 @@ body{
 	font:1.2rem/1.62 sans-serif;
 }
 h1,h2,h3 {
-	line-height:1.2;
+	line-height: 1.2;
 }
 header h1{
 	margin: 0.4rem 0;
@@ -20,17 +20,10 @@ a{
 }
 nav{
 	list-style-type: none;
-	padding: 0.2rem 0;
+	padding: 0;
 }
 nav>a{
-    padding: 0.5rem;
-	padding-left: 0;
-    margin-left: 2rem;
-}
-nav>a:first-child{
-    padding: 0.5rem;
-	padding-left: 0;
-	margin-left: 0;
+    padding: 0.2rem;
 }
 nav hr{
 	margin: 0;
@@ -81,6 +74,23 @@ main{
 	}
 }
 
+/* For Media over the mobile view */
+@media screen and (min-width: 601px){
+	nav{
+		list-style-type: none;
+	}
+	nav>a{
+		padding: 1rem 0;
+		margin-left: 2rem;
+	}
+	nav>a:first-child{
+		padding: 1rem 0;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+/* For Media under the mobile view */
 @media screen and (max-width: 600px){
 	h1, h2, h3, p, nav{
 		text-align: center;
@@ -89,4 +99,18 @@ main{
 	body{
 		margin: 0.2rem;
 	}
+	nav>a{
+		display: block;
+		border-top: 1px dotted black;
+	}
+	nav>a:first-child{
+		border: none;
+	}
 }
+
+@media screen and (max-width: 600px) and (prefers-color-scheme: dark){
+	nav>a{
+		border-color: white;
+	}
+}
+
