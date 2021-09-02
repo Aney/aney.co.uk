@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /files/
+
+User-agent: *
+Allow: *
+
+#Sitemap: https://www.aney.co.uk/sitemap.xml
+
