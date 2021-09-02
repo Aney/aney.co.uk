@@ -12,16 +12,18 @@ semantic, accessable, and snappy.
 
 ## To Do
 
-- Core CSS
-- HTML
-- Validation of HTML
-- Liquid Layout
-- Speed testing and improvements
+- Finalise Content
+- Misc page
+ - This will contain links to other pages not in the header
+- Support page
+- A blog with RSS
 
-## Additional Work
+## Release Notes
 
-A fancy CV/about me boilerplater.
+### v0.4.0
 
-A blog with RSS
+- Add 'tags' to easily show skills
+- Remove files from the files/ directory
+- Remove Wiki
+- Add robots.txt, and .gitignore
 
-A Git repository page (linked to self-hosted git)
