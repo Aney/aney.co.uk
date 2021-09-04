@@ -16,6 +16,8 @@ header h1{
 a{
 	text-decoration: none;
 }
+a:link, a:visited {color:#087ca7;}
+a:hover, a:visited:hover {color:#09b2dc;}
 ul{
 	padding-left: 0;
 	list-style-position: inside;
@@ -29,7 +31,7 @@ footer p{
 	font-size: 0.8rem;
 	padding: 0.2rem;
 	border-radius: 0.33rem;
-	background-color: black;
+	background-color: #191919;
 	color: white;
 	vertical-align: middle;
 }
@@ -49,10 +51,9 @@ main{
 }
 
 @media (prefers-color-scheme: dark){
-	body {color:#fff;background:#000;}
-	a:link {color:#9cf;}
-	a:hover, a:visited:hover {color:#cef;}
-	a:visited {color:#9ce;}
+	body {color:#fff;background:#191919;}
+	a:link, a:visited {color:#9cf;}
+	a:hover, a:visited:hover {color:#DA4167;}
 	.tag{background-color:white; color:black;}
 }
 
