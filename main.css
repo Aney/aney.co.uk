@@ -1,47 +1,26 @@
-html{
-	font-size: 14px;
-}
+html, body {height: 100%;}
+html{font-size: 14px;}
 body{
 	margin:0.2rem auto;
 	max-width:48rem;
 	padding:0 .62rem;
 	font:1.2rem/1.62 sans-serif;
 }
-h1,h2,h3 {
-	line-height: 1.2;
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
 }
 header h1{
-	margin: 0.4rem 0;
 	margin-top: 1.4rem;
+	margin-bottom: 1.2rem;
 }
-
 a{
 	text-decoration: none;
 }
-nav{
-	list-style-type: none;
-	padding: 0;
-}
-nav>a{
-    padding: 0.2rem;
-}
-nav hr{
-	margin: 0;
-}
-
-html, body {
-	height: 100%;
-}
-
+a:link, a:visited {color:#087ca7;}
+a:hover, a:visited:hover {color:#09b2dc;}
 ul{
 	padding-left: 0;
 	list-style-position: inside;
-	display: inline-block;
-	margin: 0;
-}
-ul p{
-	display: inline-block;
-	margin: 0.5rem 0;
 }
 footer p{
 	margin: 0;
@@ -52,7 +31,7 @@ footer p{
 	font-size: 0.8rem;
 	padding: 0.2rem;
 	border-radius: 0.33rem;
-	background-color: black;
+	background-color: #191919;
 	color: white;
 	vertical-align: middle;
 }
@@ -72,10 +51,9 @@ main{
 }
 
 @media (prefers-color-scheme: dark){
-	body {color:#fff;background:#000;}
-	a:link {color:#9cf;}
-	a:hover, a:visited:hover {color:#cef;}
-	a:visited {color:#9ce;}
+	body {color:#fff;background:#191919;}
+	a:link, a:visited {color:#9cf;}
+	a:hover, a:visited:hover {color:#DA4167;}
 	.tag{background-color:white; color:black;}
 }
 
@@ -87,11 +65,7 @@ main{
 
 /* For Media over the mobile view */
 @media screen and (min-width: 601px){
-	nav{
-		list-style-type: none;
-	}
 	nav>a{
-		padding: 1rem 0;
 		margin-left: 2rem;
 	}
 	nav>a:first-child{
@@ -103,14 +77,12 @@ main{
 
 /* For Media under the mobile view */
 @media screen and (max-width: 600px){
-	h1, h2, h3, p, nav{
-		text-align: center;
-	}
-
 	body{
 		margin: 0.2rem;
+		text-align: center;
 	}
 	nav>a{
+		padding: 0.2rem 0;
 		display: block;
 		border-top: 1px dotted black;
 	}

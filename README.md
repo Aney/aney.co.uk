@@ -13,12 +13,25 @@ semantic, accessable, and snappy.
 ## To Do
 
 - Finalise Content
-- Misc page
- - This will contain links to other pages not in the header
-- Support page
+- Add Pages
+ - Software
+ - About Me
+ - OneBag
+ - Design Choices (for website)
 - A blog with RSS
 
 ## Release Notes
+
+### v0.5.0
+
+- Update styling
+ - Colour schemes
+ - Line heights
+- Update content for home, equipment, and project pages
+- Add sitemap (misc in menu) page
+- Add support page, with link to Ko-fi
+- Remove CV from navigation
+- Add misc and support into navigation
 
 ### v0.4.0
 
